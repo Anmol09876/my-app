@@ -1,0 +1,73 @@
+{
+  "name": "Advanced Scientific Calculator",
+  "short_name": "SciCalc",
+  "description": "A comprehensive scientific calculator with CAS, graphing, statistics, and more",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Standard Calculator",
+      "short_name": "Standard",
+      "description": "Open the standard calculator",
+      "url": "/?mode=standard",
+      "icons": [{ "src": "/icons/standard.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Graphing Calculator",
+      "short_name": "Graph",
+      "description": "Open the graphing calculator",
+      "url": "/?mode=graph",
+      "icons": [{ "src": "/icons/graph.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "CAS Calculator",
+      "short_name": "CAS",
+      "description": "Open the computer algebra system",
+      "url": "/?mode=cas",
+      "icons": [{ "src": "/icons/cas.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "orientation": "any",
+  "categories": ["education", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshots/standard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Standard Calculator"
+    },
+    {
+      "src": "/screenshots/graph.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Graphing Calculator"
+    },
+    {
+      "src": "/screenshots/cas.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "CAS Calculator"
+    }
+  ]
+}

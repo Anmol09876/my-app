@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Calculator body -->
+  <rect x="80" y="40" width="352" height="432" rx="24" fill="#0f172a" />
+  
+  <!-- Calculator screen -->
+  <rect x="104" y="72" width="304" height="96" rx="8" fill="#e2e8f0" />
+  
+  <!-- Calculator buttons -->
+  <!-- Row 1 -->
+  <rect x="104" y="192" width="64" height="64" rx="8" fill="#64748b" />
+  <rect x="184" y="192" width="64" height="64" rx="8" fill="#64748b" />
+  <rect x="264" y="192" width="64" height="64" rx="8" fill="#64748b" />
+  <rect x="344" y="192" width="64" height="64" rx="8" fill="#f59e0b" />
+  
+  <!-- Row 2 -->
+  <rect x="104" y="272" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="184" y="272" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="264" y="272" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="344" y="272" width="64" height="64" rx="8" fill="#f59e0b" />
+  
+  <!-- Row 3 -->
+  <rect x="104" y="352" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="184" y="352" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="264" y="352" width="64" height="64" rx="8" fill="#94a3b8" />
+  <rect x="344" y="352" width="64" height="64" rx="8" fill="#f59e0b" />
+  
+  <!-- Button text -->
+  <!-- Row 1 -->
+  <text x="136" y="232" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">7</text>
+  <text x="216" y="232" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">8</text>
+  <text x="296" y="232" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">9</text>
+  <text x="376" y="232" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">÷</text>
+  
+  <!-- Row 2 -->
+  <text x="136" y="312" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  <text x="216" y="312" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  <text x="296" y="312" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">6</text>
+  <text x="376" y="312" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">×</text>
+  
+  <!-- Row 3 -->
+  <text x="136" y="392" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="216" y="392" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="296" y="392" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="376" y="392" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">-</text>
+  
+  <!-- Display text -->
+  <text x="392" y="136" font-family="Arial" font-size="36" font-weight="bold" fill="#0f172a" text-anchor="end">123.45</text>
+</svg>
